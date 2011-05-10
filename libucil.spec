@@ -35,6 +35,7 @@ and graphic overlays onto video images.
 %package -n %{lib_name}
 Summary:	Dynamic libraries for libucil
 Group:		System/Libraries
+Conflicts:	%{_lib}unicap2 < 0.9.12
 
 %description -n %{lib_name}
 Unicap provides a uniform interface to video capture devices. It allows
@@ -47,6 +48,7 @@ Summary:	Development libraries, include files for Ucil
 Group:		Development/C
 Provides:	%{name}-devel = %{version}-%{release}
 Requires:	%{lib_name} = %{version}
+Conflicts:	%{_lib}unicap-devel < 0.9.12
 
 %description -n %{develname}
 The package includes header files and libraries necessary
