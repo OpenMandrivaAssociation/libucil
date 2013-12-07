@@ -5,7 +5,7 @@
 Summary:	Library to render text and graphic overlays onto video images
 Name:		libucil
 Version:	0.9.10
-Release:	5
+Release:	6
 License:	GPLv2+
 Group:		System/Libraries
 Url:		http://www.unicap-imaging.org/
