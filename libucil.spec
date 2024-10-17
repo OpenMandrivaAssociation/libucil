@@ -8,7 +8,7 @@ Version:	0.9.10
 Release:	11
 License:	GPLv2+
 Group:		System/Libraries
-Url:		http://www.unicap-imaging.org/
+Url:		https://www.unicap-imaging.org/
 Source0:	http://www.unicap-imaging.org/downloads/%{name}-%{version}.tar.gz
 Patch0:		libucil-0.9.8-bz627890.patch
 Patch1:		libucil-0.9.10-leaks.patch
